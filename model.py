@@ -22,7 +22,6 @@ def plot_data(original, predictions):
   plt.plot(original, color = 'blue', label = 'actual price')
   plt.plot(predictions, color = 'green', label = 'predicted')
   plt.legend()
-  plt.xticks = ([test_dates])
   plt.show()
 
 #predicts the stock prices x days into the future - accuracy is questionable
